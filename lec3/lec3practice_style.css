@@ -1,0 +1,27 @@
+body{background-color:black}
+.greenbold{
+  color:lightgreen;
+  font-weight:bold;
+}
+
+.orange{
+  color:orange;
+}
+
+.magenta{
+  color:magenta;
+}
+
+sup{
+  color:red;
+}
+
+em{
+  color:yellow;
+  text-transform:uppercase;
+}
+
+p{
+  color:white;
+  font-family: "calibri", helvetica, arial;
+}
