@@ -1,10 +1,11 @@
 body{
-  background-color:red
+  background-color: red;
 }
 ul{
   color:green;
-  font-style:italic;
+  font-style: italic;
 }
-li{font-size:30px;}
-
-ASK ABOUT "Inline (should appear all on one line)"
+li{
+  font-size:30px;
+  display: inline-block;
+}
