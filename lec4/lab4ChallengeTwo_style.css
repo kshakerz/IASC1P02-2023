@@ -28,9 +28,10 @@ p{      /*applies to all paragraphs*/
   color:orange;
 }
 
-.bigText p sup{      /*applies to superscripted text with a bigText class*/
+.bigText p .superscript{      /*applies to superscript class text with a bigText class*/
+font-size:31px;
  color:red;
- font-size:31px;
+ vertical-align:super;
 }
 
 .tinyText p{      /*applies to the paragraph with tiny text*/
