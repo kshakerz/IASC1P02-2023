@@ -1,0 +1,29 @@
+p{      /*applies to all paragraphs*/
+  font-family: "Arial", sans-serif;
+  font-size: 12pt;
+}
+
+body{
+  background-color: blue;
+  border: 4px solid black;
+  margin: 10% 10% 10% 10%;
+}
+
+.greenbox{      /*applies to green border*/
+  margin: 20px;
+}
+
+.greenbox p{      /*applies to paragraphs in green border*/
+  color: red;
+  border-style: dashed;
+  border-color: green;
+  border-width:1px;
+  padding: 5px;
+}
+
+.badgerbox {          /*applies to yellow border paragraphs*/
+  border-style: dashed;
+  border-color: yellow;
+  border-width: 2px;
+  padding: 20px;
+}

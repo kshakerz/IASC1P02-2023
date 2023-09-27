@@ -1,0 +1,44 @@
+p{      /*applies to all paragraphs*/
+  font-family: serif;
+}
+
+.purplebox{      /*applies to purple border*/
+  margin: 10px 10px 10px 10px;
+}
+
+.purplebox p{      /*applies to paragraphs in purple border*/
+  font-size:14px;
+  border-style: dotted;
+  border-color: purple;
+  border-width:3px;
+  text-align:center;
+  padding-top:225px;
+  padding-bottom: 20px;
+}
+
+.greenText p{      /*applies to the paragraph with green text*/
+  font-size:10px;
+  text-align:center;
+  color:green;
+}
+
+.bigText p{      /*applies to the paragraph with the big text*/
+  font-size:31px;
+  text-align:left;
+  color:orange;
+}
+
+.bigText p sup{      /*applies to superscripted text with a bigText class*/
+ color:red;
+ font-size:31px;
+}
+
+.tinyText p{      /*applies to the paragraph with tiny text*/
+  font-size:8px;
+  text-align:right;
+  color:purple;
+}
+
+.tinyText p .yellowText{    /*applies to the yellow text within the tiny paragraph*/
+  color:yellow;
+}

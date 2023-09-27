@@ -1,0 +1,24 @@
+p{      /*applies to all paragraphs*/
+  font-family: serif;
+  color:purple;
+}
+
+.greenBG{
+  background-color: green;
+}
+
+.blackBox{  /*Applies to dotted black border*/
+  border-style: dotted;
+  border-color: black;
+  border-width:5px;
+  margin: 0px 15px 0px 15px;
+  padding: 10px;
+}
+
+.redText{
+  color:red;
+}
+
+.greenText{
+  color:darkgreen;
+}
