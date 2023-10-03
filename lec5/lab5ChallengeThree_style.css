@@ -1,0 +1,37 @@
+﻿body{
+	color:black;
+	background-color:green;
+	margin:0 auto;
+}
+
+
+#wrapper{
+	width:1000px;
+	margin:0 auto;
+}
+
+#leftbox{
+	float:left;
+	height:250px;
+	width:250px;
+	background-color:blue;
+	text-align:left;
+}
+
+#rightbox{
+	float:right;
+	height:250px;
+	width:250px;
+	background-color:red;
+	text-align:left;
+}
+
+#bottombox{
+	height:250px;
+	width:250px;
+	position:relative;
+	left:375px;
+	background-color:yellow;
+	clear:both;
+	text-align:left;
+}

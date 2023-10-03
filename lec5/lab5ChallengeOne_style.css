@@ -18,24 +18,15 @@
 #leftbody{
 	float:left;
 	width:100%;
-	height: 615px;
+	height:615px;
 	background-color:green;
-	padding-top:15px;
-
 }
-
-/* #rightbody{
-	float:right;
-	width:540px;
-	height:500px;
-	background:green;
-	padding:5px;
-} */
 
 #bottom{
 	text-align:left;
+	float:left;
+	width:100%;
 	height:77px;
-	padding-top:15px;
 	background-color:blue;
 	clear:both;
 }
