@@ -1,0 +1,41 @@
+﻿body{
+	color:white;
+	background-color:white;
+}
+
+
+#wrapper{
+	width:100%;
+	margin:0 auto;
+}
+
+#header{
+	padding:3px 0 10px 0;
+	background-color:red;
+	text-align:center;
+}
+
+#leftbody{
+	float:left;
+	width:100%;
+	height: 615px;
+	background-color:green;
+	padding-top:15px;
+
+}
+
+/* #rightbody{
+	float:right;
+	width:540px;
+	height:500px;
+	background:green;
+	padding:5px;
+} */
+
+#bottom{
+	text-align:left;
+	height:77px;
+	padding-top:15px;
+	background-color:blue;
+	clear:both;
+}
