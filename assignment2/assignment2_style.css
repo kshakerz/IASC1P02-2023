@@ -1,0 +1,113 @@
+body{
+	color:blue;
+	background-color:black;
+  background-image: linear-gradient(lightgreen, lightblue);
+  background-attachment: fixed;
+  margin:0;
+}
+
+#ad1,#ad2,#ad3,#ad4{
+  position:fixed;
+  z-index:99;
+}
+
+#ad1{
+  top:20px;
+  left:20px;
+}
+
+#ad2{
+  top:20px;
+  right:20px;
+}
+
+#ad3{
+  bottom:20px;
+  left:20px;
+}
+
+#ad4{
+  bottom:20px;
+  right:20px;
+}
+
+#wrapper{
+	width:1000px;
+	margin:0 auto;
+	background-color:white;
+  font-family: sans-serif;
+}
+
+#header{
+  padding:10px;
+	width:980px;
+	height:70px;
+	text-align:center;
+	background-color:lightblue;
+  font-family:"Comic Sans MS","Chalkboard","Papyrus",sans-serif;
+}
+
+#sidebar{
+	float:left;
+	width:140px;
+  height:2050px;
+	background-color:#FFFFCC;
+	padding:5px;
+  font-size:14px;
+}
+
+#sidebar li{
+  margin:20px 0;
+}
+
+#rightbody{
+	float:right;
+  height:2050px;
+	width:840px;
+	background:#FFFF99;
+	padding:5px;
+}
+
+p,img,h3,#sidebar{
+  position:relative;
+  z-index:10;
+}
+
+#bottom{
+  background-color: lightgreen;
+	text-align:center;
+	height:50px;
+  width:100%;
+  padding-top:5px;
+  padding-bottom:5px;
+	clear:both;
+}
+
+#rightbody img{
+  border-width: 2px;
+  border-radius:10px;
+  border-color:purple;
+  border-style:dashed;
+}
+
+.redCaps{
+  text-transform:uppercase;
+  font-weight:bold;
+  color:darkRed;
+}
+
+.bigText{
+  font-size:20px;
+}
+
+#mybuddy{
+  z-index:1;
+  position:absolute;
+  top:955px;
+  right:200px;
+}
+
+#summaryBox{
+  position:relative;
+  left:20px;
+}
