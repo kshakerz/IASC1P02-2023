@@ -1,0 +1,201 @@
+body{
+	color:#59108e;
+	background-color:#ede0ff;
+  background-attachment: fixed;
+  margin:0;
+}
+
+#wrapper{
+	width:1000px;
+	margin:0 auto;
+	background-color:white;
+  font-family: sans-serif;
+	font-family:"Times New Roman",serif;
+  font-size:20px;
+}
+
+#header{
+	width:1000px;
+	height:100px;
+	text-align:left;
+	background-color:#ecc8ff;
+}
+
+#leftHeader{
+	background-color:#ecc8ff;
+	float:left;
+	width:190px;
+	height:62px;
+	padding-top:18px;
+	padding-right:10px;
+	padding-left:10px;
+	padding-bottom:20px;
+}
+
+#leftHeader .city{
+	padding-left: 25px;
+}
+
+#rightHeader{
+	background-color:#ecc8ff;
+	text-align:right;
+	float:right;
+	width:770px;
+	height:62px;
+	padding-top:18px;
+	padding-right:10px;
+	padding-left:10px;
+	padding-bottom:18px;
+}
+
+ul#municipalities{
+	margin-right:152px;
+}
+
+ul#municipalities li{
+  display:inline;
+	margin-right: 20px;
+}
+
+#rightHeader img{
+	margin-left:10px;
+}
+
+.container{
+	display: flex;
+	height:25px;
+	float:right;
+	align-items: center;
+	margin-top:10px;
+}
+
+select{
+  font-family:"Times New Roman",serif;
+}
+
+#calendar{
+	color:white;
+	float:left;
+	width:200px;
+  height:165px;
+  background-color:#59108e;
+	padding:5px;
+	text-align:center;
+}
+
+#calendar a {
+	color:white;
+}
+
+#calendarTable a{
+	color:#59108e;
+}
+
+#rightbody{
+	float:right;
+	width:790px;
+  height:1295px;
+	background:white;
+}
+
+#rightbody img{
+	border-style: solid;
+	border-width:5px;
+	border-radius: 20px;
+}
+
+#community, #housing{
+	margin-top:30px;
+}
+
+#community, #jobs, #forsale, #gigs{
+	float:left;
+	margin-left: 85px;
+}
+
+#housing, #services, #discussion, #resumes{
+	float:right;
+	margin-right: 85px;
+}
+
+.categoryText a {
+	color:white;
+}
+
+.categoryList{
+	margin-left: 30px;
+}
+
+.categoryText{
+	text-align:center;
+	position: relative;
+	top:-85px;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 20px;
+}
+
+#sidebar{
+	clear:left;
+	float:left;
+	width:200px;
+  height:1110px;
+	background-color:#ecc8ff;
+	padding:5px;
+}
+
+#sidebar li{
+  margin-top:10px;
+  margin-left:-30px;
+  list-style: none;
+}
+
+#bottom{
+  background-color:#59108e;
+	color:white;
+	text-align:center;
+	height:110px;
+  width:100%;
+  padding-top:5px;
+  padding-bottom:5px;
+	clear:both;
+}
+
+#bottomLinks{
+	color:white;
+}
+
+ul#bottomLinks li{
+  display:inline;
+}
+
+.bigText{
+  font-size:35px;
+}
+
+.superScript{
+  vertical-align: super;
+}
+
+a {
+	color:#59108e;
+	text-decoration: none;
+}
+
+table, th, td {
+	background-color: white;
+	color:black;
+  border: 1px solid black;
+  border-collapse: collapse;
+	margin-left: 20px;
+}
+
+#bottomLinks a {
+	color:white;
+	margin-right: 20px;
+}
+
+a:hover {
+	text-decoration: underline;
+}
