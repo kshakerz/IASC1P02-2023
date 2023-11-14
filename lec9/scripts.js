@@ -9,7 +9,7 @@ function stopTime(){
 	var stop=new Date();
 	console.log("Create instance of date");
 	console.log(stop);
-	var passed=(stop-start)/600;
+	var passed=(stop-start)/1000;
 	console.log("Create instance of passed time in seconds");
 	console.log(passed);
 	alert("You have been on the page for "+passed+" seconds");
