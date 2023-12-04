@@ -1,0 +1,157 @@
+body{
+	color:#8d1414;
+	background-color:#b1cbbb;
+  background-attachment: fixed;
+  margin:0;
+}
+
+#wrapper{
+	width:1000px;
+	margin:0 auto;
+	background-color:white;
+  font-family:"Roboto","Arial",sans-serif;
+}
+
+#header{
+  padding:10px;
+	width:980px;
+	height:110px;
+	text-align:center;
+	background-color:#8d1414;
+	color:white;
+}
+
+#body1{
+	float:right;
+  height:820px;
+	width:1000px;
+	background:#eea29a;
+}
+
+#body2{
+	float:right;
+  height:900px;
+	width:1000px;
+	background:#eea29a;
+}
+
+#body3{
+	float:right;
+  height:2200px;
+	width:920px;
+	background:#eea29a;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+.centerbody {
+	text-align:center;
+}
+
+#output{
+	margin-bottom:20px;
+}
+
+#navbox{
+	color:black;
+	background-color:white;
+	border-radius: 15px;
+	border-style: solid;
+	border-width:medium;
+  padding: 20px;
+	height:170px;
+	width:400px;
+	text-align:center;
+	margin-left: auto;
+  margin-right: auto;
+	margin-top:30px;
+}
+
+#secretText{
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+#author{
+	margin-top:-20px;
+}
+
+#bottom{
+	background-color:#8d1414;
+	text-align:center;
+	height:90px;
+	width:1000px;
+  padding-top:5px;
+  padding-bottom:5px;
+	clear:both;
+	color:white;
+}
+
+ul.bannerLinks li{
+  display:inline;
+}
+
+.bannerLinks a {
+	margin-right: 20px;
+}
+
+.boldcaps{
+  text-transform:uppercase;
+  font-weight:bold;
+}
+
+.greenBold{
+  font-weight:bold;
+	color:darkgreen;
+}
+
+p{
+	color:black;
+}
+
+#bottom p{
+	color:white;
+}
+
+a {
+	color:white;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+button{
+	background-color:#8cc8a3;
+	padding: 10px 30px;
+  border-style: solid;
+  border-color:black;
+	border-radius: 15px;
+  font-family:"Roboto","Arial",sans-serif;
+	font-size:20px;
+  cursor: pointer;
+	transition-duration: 0.2s;
+}
+
+button:hover{
+	background-color:white;
+}
+
+#equalsButton{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+#navbox button{
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+#open{
+	margin-top: 20px;
+}
